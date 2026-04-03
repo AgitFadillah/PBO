@@ -27,14 +27,20 @@ class mahasiswa{
         return prodi;
     }
 
+    void tampilkanData(mahasiswa mhs){
+        System.out.println("Nama: " + mhs.getNama());
+        System.out.println("NIM: " + mhs.getNIM());
+        System.out.println("Prodi: " + mhs.Getprodi());
+    }
 }
 
-public class soal1 {
+public class soal2 {
     public static void main(String[] args) {
         mahasiswa mhs1 = new mahasiswa();
         mhs1.setNama("Agit Fadillah");
         mhs1.setNIM(123456789);
         mhs1.setProdi("Teknik Informatika");
+        mhs1.tampilkanData(mhs1);
     }
 }
 
