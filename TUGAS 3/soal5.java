@@ -38,11 +38,11 @@ class mahasiswa{
 
     public void tampilkandata(mahasiswa mhs){
         if (mhs.getSemester() > 0) {
+            System.out.println();
             System.out.println("Nama: " + mhs.getNama());
             System.out.println("NIM: " + mhs.getNIM());
             System.out.println("Prodi: " + mhs.getprodi());
             System.out.println("Semester: " + mhs.getSemester());
-            System.out.println();
         }
         else {
             System.out.println("Data tidak valid");
