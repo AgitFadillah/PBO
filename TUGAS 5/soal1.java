@@ -13,7 +13,7 @@ class Hewan{
 class kucing extends Hewan{
     kucing(String nama){
         super(nama);
-    }
+    }   
 
     @Override
     void suara(){
