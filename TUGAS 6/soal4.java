@@ -15,7 +15,6 @@ abstract class hewan {
 interface terbang{
     void terbang();
 }
-
 class burung extends hewan implements terbang {
     burung(String nama) {
         super(nama);
