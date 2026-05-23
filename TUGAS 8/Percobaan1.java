@@ -11,11 +11,9 @@ public class Percobaan1 {
         int angka2 = scanner.nextInt();
 
         try {
-            // Melakukan pembagian
             int hasil = angka1 / angka2;
             System.out.println("\nHasil pembagian " + angka1 + " / " + angka2 + " = " + hasil);
         } catch (ArithmeticException e) {
-            // Menangani pembagian dengan nol
             System.out.println("\n[ERROR] Tidak bisa membagi dengan nol!");
             System.out.println("Pesan error: " + e.getMessage());
         }

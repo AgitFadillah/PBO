@@ -1,3 +1,6 @@
 Nama = Agit Fadillah
 NIM = 124140157
+Prodi = Teknik Informatika
+Nama = Agit
+NIM = 124140157
 Prodi = Teknik informatika
